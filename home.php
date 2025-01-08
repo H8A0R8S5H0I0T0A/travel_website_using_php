@@ -62,7 +62,8 @@
         <input id="inputsearch"class="form-control me-2" type="text" placeholder="Search" onkeyup="create()">
         <button class="btn btn-primary" type="button">Search</button><br><br>
         
-        <label style="position:absolute; z-index:100; margin-top:50px;" id="labelsearch">check</label>   
+      
+        <a href="https://www.bing.com/ck/a?!&&p=ae94e2fae1a4a6ea85aa4257e3331939a488f87b28e5022d853d3ed7f1750a55JmltdHM9MTczNjIwODAwMA&ptn=3&ver=2&hsh=4&fclid=2d95f432-18fd-64e7-38a3-e1511966654f&psq=india+visit+link&u=a1aHR0cHM6Ly93d3cuaW5kaWFoaWdobGlnaHQuY29tLw&ntb=1" style= "position:absolute; z-index:100; margin-top:50px;" 3.id="labelsearch"></a>
       </form>
     </div>
   </div>
@@ -86,6 +87,7 @@
             data: {registration: a, name: "xyz", email: "abc@gmail.com"},
             success:function(data){
                 console.log(data);
+             
                 $("#labelsearch").html(data);
 
             }
